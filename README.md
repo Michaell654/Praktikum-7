@@ -77,4 +77,4 @@ SELECT DISTINCT k1.nik, k1.nama FROM karyawan k1 JOIN karyawan k2 ON k1.id_dept 
 
 **Output :**
 
-<img src="Screenshot/5.png">
+<img src="Sreenshot/5.png">
