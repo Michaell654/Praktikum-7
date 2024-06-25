@@ -66,7 +66,7 @@ SELECT karyawan.nik, karyawan.nama, karyawan.id_dept FROM karyawan JOIN departem
 
 **Output :**
 
-<img src="Screenshot/4.png">
+<img src="Sreenshot/4.png">
 
 ### 5. Tampilkan nik dan nama karyawan untuk semua karyawan yang bekerja di departmen yang sama dengan karyawan dengan nama yang mengandung huruf 'K' dan yang gajinya lebih besar dari rata-rata gaji semua karyawan
 **Script :**
