@@ -44,7 +44,7 @@ SELECT nik, nama, id_dept, gaji_pokok FROM karyawan WHERE gaji_pokok > (SELECT A
 
 **Output :**
 
-![alt text](Screenshot/2.png)
+<img src="Sreenshot/2.png">
 
 ### 3. Tampilkan nik dan nama karyawan untuk semua karyawan yang bekerja di departmen yang sama dengan karyawan dengan nama yang mengandung huruf 'K'.
 **Script :**
@@ -55,7 +55,7 @@ SELECT nik, nama FROM Karyawan WHERE id_dept IN (SELECT id_dept FROM Karyawan WH
 
 **Output :**
 
-![alt text](Screenshot/3.png)
+<img src="Screenshot/3.png">
 
 ### 4. Tampilkan data karyawan yang bekerja pada departemen yang ada di Kantor pusat.
 **Script :**
@@ -66,7 +66,7 @@ SELECT karyawan.nik, karyawan.nama, karyawan.id_dept FROM karyawan JOIN departem
 
 **Output :**
 
-![alt text](Screenshot/4.png)
+<img src="Screenshot/4.png">
 
 ### 5. Tampilkan nik dan nama karyawan untuk semua karyawan yang bekerja di departmen yang sama dengan karyawan dengan nama yang mengandung huruf 'K' dan yang gajinya lebih besar dari rata-rata gaji semua karyawan
 **Script :**
@@ -77,4 +77,4 @@ SELECT DISTINCT k1.nik, k1.nama FROM karyawan k1 JOIN karyawan k2 ON k1.id_dept 
 
 **Output :**
 
-![alt text](Screenshot/5.png)
+<img src="Screenshot/5.png">
