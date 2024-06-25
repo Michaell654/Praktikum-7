@@ -33,7 +33,7 @@ SELECT nik, nama, id_dept FROM Karyawan WHERE id_dept = (SELECT id_dept FROM Kar
 
 **Output :**
 
-<src="Sreenshot/1.png">
+<img src="Sreenshot/1.png">
 
 ### 2. Tampilkan data karyawan yang gajinya lebih besar dari rata-rata gaji semua karyawan. Urutkan menurun berdasarkan besaran gaji
 **Script :**
