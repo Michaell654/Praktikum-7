@@ -55,7 +55,7 @@ SELECT nik, nama FROM Karyawan WHERE id_dept IN (SELECT id_dept FROM Karyawan WH
 
 **Output :**
 
-<img src="Screenshot/3.png">
+<img src="Sreenshot/3.png">
 
 ### 4. Tampilkan data karyawan yang bekerja pada departemen yang ada di Kantor pusat.
 **Script :**
